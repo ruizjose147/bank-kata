@@ -5,9 +5,9 @@ public class App {
     public static void main(String[] args) {
         Cuenta cuenta = new Cuenta(new Extracto());
 
-        cuenta.depositar(amountOf(2000000), date("07/04/2022"));
-        cuenta.retirar(amountOf(500000), date("06/04/2022"));
-        cuenta.depositar(amountOf(300000), date("30/03/2022"));
+        cuenta.depositar(amountOf(1000), date("10/01/2021"));
+        cuenta.retirar(amountOf(500), date("05/03/2021"));
+        cuenta.depositar(amountOf(100), date("31/08/2021"));
         cuenta.imprimirDeclaraciones();
     }
 }
